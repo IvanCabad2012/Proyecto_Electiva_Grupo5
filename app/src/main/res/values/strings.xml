@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Proyecto_Electiva_Grupo5</string>
+    <string name="txtNueva_np_titulo">Nueva Nota de Pedido</string>
+    <string name="bntAceptar">Aceptar</string>
+    <string name="btnCancelar">Cancelar</string>
+    <string name="txtFecha">Fecha de Registro</string>
+    <string name="txtListaPedidos">Lista de Pedido</string>
 </resources>
