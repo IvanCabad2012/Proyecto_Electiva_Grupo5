@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Proyecto_Electiva_Grupo5</string>
+    <string name="Email">Email</string>
+    <string name="Pass">Contraseña</string>
+    <string name="btnIs">Iniciar sesión</string>
+    <string name="btnRegistro">Registrarse</string>
+    <string name="btnForgotPass">Olvidé mi contraseña</string>
+    <string name="logo"> Logo Etyecu</string>
+
 </resources>
