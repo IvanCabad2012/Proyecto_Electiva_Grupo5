@@ -6,5 +6,7 @@
     <string name="btnRegistro">Registrarse</string>
     <string name="btnForgotPass">Olvidé mi contraseña</string>
     <string name="logo"> Logo Etyecu</string>
-
+    <string name="txtpedir">Mis pedidos</string>
+    <string name="nombrebotonbusqueda">Buscar</string>
+    <string name="hintbusqueda">Ingrese la busqueda</string>
 </resources>
