@@ -9,6 +9,12 @@
     <string name="txtProducto">PRODUCTO</string>
     <string name="txtCantidad">CANTIDAD</string>
     <string name="txtAgregarProducto">AGREGAR PRODUCTO</string>
+    <string name="Email">Email</string>
+    <string name="Pass">Contraseña</string>
+    <string name="btnIs">Iniciar sesión</string>
+    <string name="btnRegistro">Registrarse</string>
+    <string name="btnForgotPass">Olvidé mi contraseña</string>
+    <string name="logo"> Logo Etyecu</string>
     <string name="txtpedir">Mis pedidos</string>
     <string name="nombrebotonbusqueda">Buscar</string>
     <string name="hintbusqueda">Ingrese la busqueda</string>
