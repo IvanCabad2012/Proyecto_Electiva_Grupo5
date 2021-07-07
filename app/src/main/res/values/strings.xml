@@ -3,4 +3,19 @@
     <string name="txtpedir">Mis pedidos</string>
     <string name="nombrebotonbusqueda">Buscar</string>
     <string name="hintbusqueda">Ingrese la busqueda</string>
+    <string name="col1">Codigo</string>
+    <string name="col2">fecha</string>
+    <string name="col3">c/productos</string>
+    <string name="col4">c/Lugar de origen</string>
+    <string name="col5">c/estado</string>
+    <string name="row1Cod">001</string>
+    <string name="row1fecha">05/06/21</string>
+    <string name="row1cproductos">20</string>
+    <string name="row1lorigen">Mexico</string>
+    <string name="row1estado">Entregado</string>
+    <string name="row2Cod">002</string>
+    <string name="row2fecha">06/06/21</string>
+    <string name="row2cproductos">24</string>
+    <string name="row2lorigen">Colombia</string>
+    <string name="row2estado">Atentido</string>
 </resources>
