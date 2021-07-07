@@ -9,10 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Proyecto_Electiva_Grupo5">
-        <activity android:name=".activity_pantalla_cliente"></activity>
-        <activity android:name=".NuevaNotaDePedido"></activity>
-        <activity android:name=".Login"></activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".NuevoProducto" />
+        <activity android:name=".activity_pantalla_cliente" />
+        <activity android:name=".NuevaNotaDePedido" />
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity" />
         <activity android:name=".Activity_mispedidos">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

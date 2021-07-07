@@ -40,5 +40,23 @@
     <string name="Bienvenido">Bienvenido</string>
     <string name="btncerrarsesion">Cerrar Sesion</string>
 
+    <!-- Activity Nuevo Producto -->
+    <string name="txt_title_logo">IMG</string>
+    <string name="txt_title_n_p">Nuevo Producto</string>
+    <string name="txt_id">ID</string>
+    <string name="txt_desc">Descripción</string>
+    <string name="txt_lote">Lote</string>
+    <string name="txt_modelo">Modelo</string>
+    <string name="txt_marca">Marca</string>
+    <string name="txt_comp">Composición</string>
+    <string name="txt_tamanio">Tamaño</string>
+    <string name="txt_cant">Cantidad</string>
+    <string name="txt_pais">País</string>
+    <string name="txt_obs">Observaciones</string>
+    <string name="txt_add">AÑADIR</string>
+    <string name="txt_cancel">CANCELAR</string>
+
+
+
 
 </resources>
