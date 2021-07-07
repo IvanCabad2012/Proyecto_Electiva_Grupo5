@@ -9,5 +9,7 @@
     <string name="txtProducto">PRODUCTO</string>
     <string name="txtCantidad">CANTIDAD</string>
     <string name="txtAgregarProducto">AGREGAR PRODUCTO</string>
-
+    <string name="txtpedir">Mis pedidos</string>
+    <string name="nombrebotonbusqueda">Buscar</string>
+    <string name="hintbusqueda">Ingrese la busqueda</string>
 </resources>
