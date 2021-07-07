@@ -1,5 +1,14 @@
 <resources>
     <string name="app_name">Proyecto_Electiva_Grupo5</string>
+    <string name="txtNueva_np_titulo">NUEVA NOTA DE PEDIDO</string>
+    <string name="bntGuardar">GUARDAR</string>
+    <string name="btnCancelar">CANCELAR</string>
+    <string name="txtFecha">FECHA</string>
+    <string name="txtListaPedidos">LISTA DE PEDIDO</string>
+    <string name="txtCodigo">CÓDIGO</string>
+    <string name="txtProducto">PRODUCTO</string>
+    <string name="txtCantidad">CANTIDAD</string>
+    <string name="txtAgregarProducto">AGREGAR PRODUCTO</string>
     <string name="Email">Email</string>
     <string name="Pass">Contraseña</string>
     <string name="btnIs">Iniciar sesión</string>
