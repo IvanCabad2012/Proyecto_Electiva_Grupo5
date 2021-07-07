@@ -43,7 +43,7 @@
     <!-- Activity Nuevo Producto -->
     <string name="txt_title_logo">IMG</string>
     <string name="txt_title_n_p">Nuevo Producto</string>
-    <string name="txt_id">ID</string>
+    <string name="txt_id">Codigo</string>
     <string name="txt_desc">Descripción</string>
     <string name="txt_lote">Lote</string>
     <string name="txt_modelo">Modelo</string>
@@ -56,6 +56,17 @@
     <string name="txt_add">AÑADIR</string>
     <string name="txt_cancel">CANCELAR</string>
 
+    <!-- Activity Mis Facturas -->
+    <string name="mf_tittle">Mis Facturas</string>
+    <string name="mf_busq">Búsqueda</string>
+    <string name="mf_coltittle1">Codigo</string>
+    <string name="mf_coltittle2">Fecha</string>
+    <string name="mf_coltittle3">Productos</string>
+    <string name="mf_coltittle4">Origen</string>
+    <string name="mf_coltittle5">Precio</string>
+    <string name="mf_precio1">$ 25.48</string>
+    <string name="mf_precio2">$148.02</string>
+    <string name="mf_up">ACTUALIZAR</string>
 
 
 
