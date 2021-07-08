@@ -39,6 +39,7 @@
     <string name="pclientecliente">Cliente</string>
     <string name="Bienvenido">Bienvenido</string>
     <string name="btncerrarsesion">Cerrar Sesion</string>
+    <string name="title_activity_ubicacion">Map</string>
 
     <!-- Activity Nuevo Producto -->
     <string name="txt_title_logo">IMG</string>
