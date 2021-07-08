@@ -11,6 +11,14 @@
     <color name="colorverde">#96c896</color>
     <color name="colorazulproyecto">#3C5086</color>
 
+    <!-- Colores generales -->
+    <color name="gen_aceptar">#3C5186</color>
+    <color name="gen_cancelar">#687980</color>
+    <color name="gen_barrasup">#02475E</color>
+    <color name="gen_fondo1">#ECF3FA</color>
+    <color name="gen_fondo2">#DEEDF0</color>
+    <color name="gen_fondo3">#FFF0F0</color>
+    <color name="gen_celestebonito">#DEEDF0</color>
 
 
 </resources>
