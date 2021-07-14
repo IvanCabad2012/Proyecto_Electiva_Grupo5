@@ -69,6 +69,13 @@
     <string name="mf_precio2">$148.02</string>
     <string name="mf_up">ACTUALIZAR</string>
 
-
+    <!-- Activity Empleado-Home -->
+    <string name="eh_info">Empleado</string>
+    <string name="eh_welcome">Bienvenido</string>
+    <string name="eh_b1_etiquetado">Nuevo etiquetado</string>
+    <string name="eh_b2_listado">Listado de clientes</string>
+    <string name="eh_b3_perfil">Perfil empleado</string>
+    <string name="eh_b4_procesos">Lista procesos</string>
+    <string name="eh_b5_traza">Trazabilidad del etiquetado</string>
 
 </resources>

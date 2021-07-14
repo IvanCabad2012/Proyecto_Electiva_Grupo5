@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".empleado_home">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="100dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/iconopc3" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="64dp"
+        android:layout_height="20dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginLeft="48dp"
+        android:text="@string/eh_info"
+        app:layout_constraintBottom_toTopOf="@+id/guideline9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="161dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center_vertical"
+        android:text="@string/eh_welcome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_end="100dp" />
+
+    <TableLayout
+        android:layout_width="413dp"
+        android:layout_height="525dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline9"
+        app:layout_constraintVertical_bias="0.333">
+
+        <Space
+            android:layout_width="96dp"
+            android:layout_height="12dp" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/bi1_etiquetado"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    app:srcCompat="@drawable/iconopc2" />
+
+                <TextView
+                    android:id="@+id/bt1_etiquetado"
+                    android:layout_width="96dp"
+                    android:layout_height="40dp"
+                    android:text="@string/eh_b1_etiquetado"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="96dp"
+                android:layout_height="144dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/bi2_listado"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    app:srcCompat="@drawable/iconopc5" />
+
+                <TextView
+                    android:id="@+id/bt2_listado"
+                    android:layout_width="96dp"
+                    android:layout_height="40dp"
+                    android:text="@string/eh_b2_listado"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+        </TableRow>
+
+        <Space
+            android:layout_width="96dp"
+            android:layout_height="12dp" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/bi3_perfil"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    app:srcCompat="@drawable/iconopc3" />
+
+                <TextView
+                    android:id="@+id/bt3_perfil"
+                    android:layout_width="96dp"
+                    android:layout_height="40dp"
+                    android:text="@string/eh_b3_perfil"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="96dp"
+                android:layout_height="144dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/bi4_procesos"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    app:srcCompat="@drawable/iconopc6" />
+
+                <TextView
+                    android:id="@+id/bt4_procesos"
+                    android:layout_width="96dp"
+                    android:layout_height="40dp"
+                    android:text="@string/eh_b4_procesos"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+
+        </TableRow>
+
+        <Space
+            android:layout_width="96dp"
+            android:layout_height="12dp" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/bi5_traza"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                app:srcCompat="@drawable/iconopc7" />
+
+            <TextView
+                android:id="@+id/bt5_traza"
+                android:layout_width="96dp"
+                android:layout_height="40dp"
+                android:text="@string/eh_b5_traza"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
