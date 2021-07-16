@@ -15,12 +15,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Proyecto_Electiva_Grupo5">
-        <activity android:name=".empleado_home"></activity>
+        <activity android:name=".DireccionesCliente"></activity>
+        <activity android:name=".PerfilCliente" />
+        <activity android:name=".TrazabilidadProceso" />
+        <activity android:name=".IngresarNotaPedidos" />
+        <activity android:name=".NuevoEtiquetado" />
+        <activity android:name=".empleado_home" />
         <activity android:name=".MisFacturas" />
         <activity android:name=".NuevoProducto" />
         <activity android:name=".activity_pantalla_cliente" />
         <activity android:name=".NuevaNotaDePedido" />
-        <activity android:name=".Login" >
+        <activity android:name=".Login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,9 +33,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
-        <activity android:name=".Activity_mispedidos">
-
-        </activity>
+        <activity android:name=".Activity_mispedidos" />
     </application>
 
 </manifest>

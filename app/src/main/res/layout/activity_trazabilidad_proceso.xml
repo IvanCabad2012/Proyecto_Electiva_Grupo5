@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TrazabilidadProceso">
+
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_titulo_trazabilidad_pedido"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="normal"
+        app:drawableTint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="@style/MyProgressBarTwo"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:progress="30"
+        android:theme="@style/MyProgressBarTwo"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="123dp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_carta_autorizacion_enviada"
+        android:textColor="@color/colorverde"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_pedido_entregado"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="522dp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_etiquetado"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="408dp" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_pedido_cargado_transporte"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="464dp" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_carta_autorizacion_aprobada"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="295dp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_nota_pedido_ingresada"
+        android:textColor="@color/colorverde"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="186dp" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="25%"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="123dp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_inventario"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="347dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_volver_trazabilidad"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/gen_botones_complementarios"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="663dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

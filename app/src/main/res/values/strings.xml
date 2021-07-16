@@ -1,20 +1,21 @@
 <resources>
     <string name="app_name">Proyecto_Electiva_Grupo5</string>
-    <string name="txtNueva_np_titulo">NUEVA NOTA DE PEDIDO</string>
-    <string name="bntGuardar">GUARDAR</string>
-    <string name="btnCancelar">CANCELAR</string>
-    <string name="txtFecha">FECHA</string>
-    <string name="txtListaPedidos">LISTA DE PEDIDO</string>
-    <string name="txtCodigo">CÓDIGO</string>
-    <string name="txtProducto">PRODUCTO</string>
-    <string name="txtCantidad">CANTIDAD</string>
-    <string name="txtAgregarProducto">AGREGAR PRODUCTO</string>
+    <string name="txtNueva_np_titulo">Nueva nota de pedido</string>
+    <string name="bntGuardar">Guardar</string>
+    <string name="btnCancelar">Cancelar</string>
+    <string name="txtFecha">Fecha</string>
+    <string name="txtListaPedidos">Lista de Pedidos</string>
+    <string name="txtCodigo">Código</string>
+    <string name="txtProducto">Producto</string>
+    <string name="txtCantidad">Cantidad</string>
+    <string name="txtAgregarProducto">Agregar Producto</string>
     <string name="Email">Email</string>
     <string name="Pass">Contraseña</string>
     <string name="btnIs">Iniciar sesión</string>
     <string name="btnRegistro">Registrarse</string>
     <string name="btnForgotPass">Olvidé mi contraseña</string>
     <string name="logo"> Logo Etyecu</string>
+
     <!-- activity mis pedidos-->
     <string name="txtpedir">Mis pedidos</string>
     <string name="nombrebotonbusqueda">Buscar</string>
@@ -34,11 +35,17 @@
     <string name="row2cproductos">24</string>
     <string name="row2lorigen">Colombia</string>
     <string name="row2estado">Atentido</string>
+    <string name="nombrebotondetalle">Ver Detalle De Pedido</string>
+
     <!-- Activity Pantalla Cliente -->
     <string name="usuario">(Nombre Cliente)</string>
     <string name="pclientecliente">Cliente</string>
     <string name="Bienvenido">Bienvenido</string>
     <string name="btncerrarsesion">Cerrar Sesion</string>
+    <string name="labelingresarnotapedido">Ingresar nota de pedido</string>
+    <string name="labellistadopedidos">Listado de pedidos</string>
+    <string name="labelperfil">Perfil</string>
+    <string name="labellistadofacturas">Listado de facturas</string>
     <string name="title_activity_ubicacion">Map</string>
 
     <!-- Activity Nuevo Producto -->
@@ -54,8 +61,8 @@
     <string name="txt_cant">Cantidad</string>
     <string name="txt_pais">País</string>
     <string name="txt_obs">Observaciones</string>
-    <string name="txt_add">AÑADIR</string>
-    <string name="txt_cancel">CANCELAR</string>
+    <string name="txt_add">Añadir</string>
+    <string name="txt_cancel">Cancelar</string>
 
     <!-- Activity Mis Facturas -->
     <string name="mf_tittle">Mis Facturas</string>
@@ -67,7 +74,7 @@
     <string name="mf_coltittle5">Precio</string>
     <string name="mf_precio1">$ 25.48</string>
     <string name="mf_precio2">$148.02</string>
-    <string name="mf_up">ACTUALIZAR</string>
+    <string name="mf_up">Actualizar</string>
 
     <!-- Activity Empleado-Home -->
     <string name="eh_info">Empleado</string>
@@ -77,5 +84,59 @@
     <string name="eh_b3_perfil">Perfil empleado</string>
     <string name="eh_b4_procesos">Lista procesos</string>
     <string name="eh_b5_traza">Trazabilidad del etiquetado</string>
+
+    <!-- Activity Nuevo-Etiquetado -->
+    <string name="txt_titulo_nuevo_etiquetado">Nuevo Etiquetado</string>
+    <string name="txt_label_id">ID</string>
+    <string name="txt_label_cliente">Cliente</string>
+    <string name="txt_label_identificacion">RUC</string>
+    <string name="txt_label_fecha_inicio">Fecha de Inicio</string>
+    <string name="txt_label_fecha_fin">Fecha Fin</string>
+    <string name="txt_label_numero_nota_pedido">Número de nota de pedido</string>
+    <string name="txt_label_numero_factura">Número Factura</string>
+    <string name="button_ingreso_nota_pedido">Ingresar nota de pedido</string>
+    <string name="button_guardar_etiquetado">Guardar</string>
+    <string name="button_cancelar_etiquetado">Cancelar</string>
+
+    <!-- Activity Nueva-Nota-Pedido -->
+    <string name="txt_titulo_ingreso_nota_pedido">Ingresar nota de pedido</string>
+    <string name="txt_pdf_prueba">Nota de pedido No3125.pdf</string>
+    <string name="boton_anadir">Añadir</string>
+    <string name="boton_actualizar">Actualizar</string>
+    <string name="boton_eliminar">Eliminar</string>
+    <string name="boton_aceptar">Aceptar</string>
+    <string name="boton_cancelar">Cancelar</string>
+
+    <!-- Activity Trazabilidad-Pedido -->
+    <string name="txt_titulo_trazabilidad_pedido">Trazabilidad del proceso</string>
+    <string name="label_nota_pedido_ingresada">Nota de pedido ingresada al sistema</string>
+    <string name="label_carta_autorizacion_enviada">Carta de autorización enviada</string>
+    <string name="label_carta_autorizacion_aprobada">Carta de autorización aprobada</string>
+    <string name="label_inventario">Inventario</string>
+    <string name="label_etiquetado">Etiquetado</string>
+    <string name="label_pedido_cargado_transporte">Pedido cargado en el transporte</string>
+    <string name="label_pedido_entregado">Pedido entregado</string>
+    <string name="button_volver_trazabilidad">Volver</string>
+
+    <!-- Activity Perfil-Cliente -->
+    <string name="titulo_perfil_cliente">Perfil del cliente</string>
+    <string name="label_id">ID</string>
+    <string name="label_nombres">Nombres</string>
+    <string name="label_apellidos">Apellidos</string>
+    <string name="label_nombre_usuario">Nombre de Usuario</string>
+    <string name="label_correo">Correo Electrónico</string>
+    <string name="label_contrasenia">Contraseña</string>
+    <string name="label_direccion">Dirección</string>
+    <string name="boton_anadir_direccion">Añadir</string>
+    <string name="boton_guardar_perfil">Guardar</string>
+    <string name="boton_cancelar_perfil">Cancelar</string>
+
+    <!-- Activity Direccion-Cliente -->
+    <string name="titulo_direccion_cliente">Dirección</string>
+    <string name="label_buscar_direccion">Ingresa tu dirección</string>
+    <string name="placeholder_buscar_direccion">Dirección</string>
+    <string name="boton_detectar_direccion">Detectar dirección automáticamente</string>
+    <string name="boton_guardar_direccion_cliente">Guardar</string>
+    <string name="boton_cancelar_direccion_cliente">Cancelar</string>
 
 </resources>

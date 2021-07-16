@@ -315,6 +315,7 @@
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:text="@string/mf_up"
+        app:backgroundTint="@color/gen_aceptar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideline7" />
 
